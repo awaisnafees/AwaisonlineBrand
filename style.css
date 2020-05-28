@@ -1,0 +1,142 @@
+.navbar{
+    background-color:orange !important;
+    
+}
+
+.nav-link:hover{
+    color: #fff !important;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+
+.navbar-brand{
+    color: #000000 !important;
+}
+
+.dropdown-item{
+    color: red !important;
+}
+
+.fa-motorcycle,.fa-headphones,.fa-thumbs-up{
+        font-size: 50px !important;
+        margin-right: 10px;
+        color: #D32F2F !important;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h3{
+    color: #D32F2F;
+}
+
+.MainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.NewArrivals:hover{
+    margin-top: 50px;
+    background-color: darkgreen;
+}
+.card{
+    width: 200px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary:hover{
+    width: 100%;
+    background-color: #D32F2F;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F;
+    margin: 20px;
+    font-size: 44px;
+}
+
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+
+} 
+.footer{
+    width: 100%;
+    background-color:brown;
+    height: 200px;
+    margin-top: 10px;
+}
+
+h4{
+    color: #fff;
+    text-align: center;
+}
+.nav-link i{
+    text-align: center;
+}
+.fa-facebook,.fa-whatsapp,.fa-twitter,.follow{
+    margin: 5px;
+    text-align: right;
+}
+
+.follow{
+    display: flex !important;
+    text-decoration: none !important;
+}
+
+
+.centerdiv{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-linkedin{
+    height: 20px;
+    width: 50px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 150px;
+    box-shadow: 1px 4px #dcdd;
+} 
+
+a i {
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform:scale(1.4);
+}
+.fa-facebook{
+    color:#084118;
+}
+.fa-twitter{
+    color:#084393 ;
+}
+.fa-instagram{
+    color:#084118;
+}
+.fa-youtube{
+    color:#0097e6 ;
+}
+.fa-linkedin{
+    color:#00997e ;
+}
+
+
+
+
